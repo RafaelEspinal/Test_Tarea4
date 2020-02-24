@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<h2 class="text-center">Noticias</h2>
+
+<div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Periodico Hoy</h4>
+        </div>
+        <div class="card-body">
+            <img class="bd-placeholder-img rounded-circle mb-4" width="140" height="140" src="https://hoy.com.do/wp-content/uploads/2016/11/periodicohoy.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" />
+
+            <button id="hoy" type="button" class="btn btn-lg btn-block btn-outline-primary">Visitar la pagina</button>
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Listin diario</h4>
+        </div>
+        <div class="card-body">
+            <img class="bd-placeholder-img rounded-circle mb-4" width="140" height="140" src="https://pbs.twimg.com/profile_images/792414352506703872/-1XeQCmT_400x400.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" />
+
+            <button id="listin" type="button" class="btn btn-lg btn-block btn-outline-primary">Visitar la pagina</button>
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="my-0 font-weight-normal">El nacional</h4>
+        </div>
+        <div class="card-body">
+            <img class="bd-placeholder-img rounded-circle mb-4" width="140" height="140" src="https://elveedordigital.com/wp-content/uploads/2019/05/elnacional.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" />
+
+            <button id="nacional" type="button" class="btn btn-lg btn-block btn-outline-primary">Visitar la pagina</button>
+        </div>
+    </div>
+</div>
+<div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Noticias SIN</h4>
+        </div>
+        <div class="card-body">
+            <img class="bd-placeholder-img rounded-circle mb-4" width="140" height="140" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS32yzl7K73l_KvLJm5qb7ef_atA64Z5Q0QdPY47P1RItzBdKNa" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" />
+
+            <button id="sin" type="button" class="btn btn-lg btn-block btn-outline-primary">Visitar la pagina</button>
+        </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Noticias telemundo</h4>
+        </div>
+        <div class="card-body">
+            <img class="bd-placeholder-img rounded-circle mb-4" width="140" height="140" src="https://www.solg.org/wp-content/uploads/2017/12/Telemundo.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" />
+
+            <button id="telemundo" type="button" class="btn btn-lg btn-block btn-outline-primary">Visitar la pagina</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("hoy").addEventListener("click", function () {
+        window.open("https://hoy.com.do/");
+    });
+    document.getElementById("listin").addEventListener("click", function () {
+        window.open("https://listindiario.com/");
+    });
+    document.getElementById("nacional").addEventListener("click", function () {
+        window.open("https://elnacional.com.do/");
+    });
+    document.getElementById("sin").addEventListener("click", function () {
+        window.open("https://noticiassin.com/");
+    });
+    document.getElementById("telemundo").addEventListener("click", function () {
+        window.open("https://www.telemundo.com/");
+    });
+</script>
+
+
+
+

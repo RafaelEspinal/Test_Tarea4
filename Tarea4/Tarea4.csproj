@@ -47,10 +47,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -170,7 +177,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AcercaController.cs" />
     <Compile Include="Controllers\ConversiónController.cs" />
+    <Compile Include="Controllers\ExcelController.cs" />
+    <Compile Include="Controllers\FiltrosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -199,6 +209,8 @@
     <Content Include="Content\rd.jpg" />
     <Content Include="Content\transferir.png" />
     <Content Include="favicon.ico" />
+    <Content Include="Fotos\Eduar.jpeg" />
+    <Content Include="Fotos\Rafael.jpeg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -355,6 +367,11 @@
     <Content Include="Views\Conversión\convertirTemperatura.cshtml" />
     <Content Include="Views\Conversión\convertirMasa.cshtml" />
     <Content Include="Views\Conversión\convertirDatos.cshtml" />
+    <Content Include="Views\Acerca\Index.cshtml" />
+    <Content Include="Views\Excel\Upload.cshtml" />
+    <Content Include="Views\Filtros\Index.cshtml" />
+    <Content Include="Views\Filtros\Peliculas.cshtml" />
+    <Content Include="Views\Filtros\Musica.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
