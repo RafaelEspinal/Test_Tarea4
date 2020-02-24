@@ -1,0 +1,82 @@
+﻿@model Tarea4.Models.datos
+@{
+    ViewBag.Title = "Formulario";
+}
+
+    <div class="container container-fluid ">
+
+
+        @using (Html.BeginForm("Formulario", "Login", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form form-group border p-3 my-2  mx-auto d-block shadow-lg p-3 mb-5 bg-white rounded", @style = "width: 69%; background-color: #F8F8F8;" }))
+        {
+           
+            <h3  class="form form-control text-center text-white bg-primary" >Formulario</h3>
+            <hr />
+            <div >
+                <div class="row ">
+                    <div class="form-group  col-sm-6">
+                        @Html.LabelFor(nn => nn.Nombre);
+                        @Html.TextBoxFor(n => n.Nombre, new { @class = "form-control", placeholder = "Digiste su Nombre" })
+                        @Html.ValidationMessageFor(mn => mn.Nombre, "", new { @class = "text-danger" })
+
+                    </div>
+                    <div class="form-group  col-sm-6">
+                        @Html.LabelFor(aa => aa.Apellido);
+                        @Html.TextBoxFor(a => a.Apellido, new { @class = "form-control", placeholder = "Digiste su Nombre" })
+                        @Html.ValidationMessageFor(ma => ma.Apellido, "", new { @class = "text-danger" })
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="form-group  col-sm-6">
+                        @Html.LabelFor(ee => ee.Edad)
+                        @Html.TextBoxFor(e => e.Edad, new { @class = "form-control", type = "number", placeholder = "Digiste su edad" })
+                        @Html.ValidationMessageFor(e => e.Edad, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group  col-sm-6">
+                        @Html.LabelFor(tt => tt.Teléfono)
+                        @Html.TextBoxFor(t => t.Teléfono, new { @class = "form-control", placeholder = "Digiste su Telefono" })
+                    </div>
+                </div>
+                <div class="row form-group ">
+                    <div class="form-group  col-sm-6">
+                        @Html.LabelFor(gg => gg.Correo)
+                        @Html.TextBoxFor(g => g.Correo, new { @class = "form-control", type = "email", placeholder = "Digiste su Correo electrónico" })
+                        @Html.ValidationMessageFor(g => g.Correo, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group  col-sm-6">
+
+                        @Html.LabelFor(pp => pp.trabajo)
+                        @Html.EnumDropDownListFor(pp => pp.trabajo, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <b>  @Html.LabelFor(gg => gg.Género) :</b>
+
+                        @Html.RadioButtonFor(gg => gg.Género, "Masculino")<span>Masculino</span>
+                        @Html.RadioButtonFor(gg => gg.Género, "Femenino") <span>Femenino</span>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <label>Foto</label>
+                        <input type="file" name="imagen" />
+                    </div>
+
+                </div>
+
+                <br />
+                <span>
+                    <label>PDF</label>
+                    <input type="file" name="pdf" />
+                </span>
+                <br />
+
+                <button type="submit" class="btn btn-primary mx-auto d-block">Guardar</button>
+            </div>
+        }
+    </div>
+

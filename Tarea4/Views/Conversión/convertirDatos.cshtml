@@ -1,0 +1,72 @@
+﻿@model Tarea4.Models.conver
+@{
+    ViewBag.Title = "convertirDatos";
+}
+
+
+<h2 class="text-center my-4">Convertir de Datos</h2>
+
+<div>
+
+    @using (Html.BeginForm("convertirDatos", "Conversión", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="card text-center mx-auto d-block shadow-lg p-3 mb-5 bg-white rounded" style="width: 650px">
+            <div class="card-header">
+                <ul class="nav nav-pills card-header-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Conversión/convertirTemperatura">Temperatura</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Conversión/convertirLongitudes">Longitudes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Conversión/convertirMasa">Masa</a>
+                    </li>
+                    <li class="nav-item">
+
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <div class="row">
+
+                    <div class="col-sm-5">
+                        @Html.EnumDropDownListFor(d => d.Datos1, new { @class = "form-control" })
+
+                    </div>
+                    <div class="col-sm-1">
+
+                        <img src="~/Content/transferir.png"></img>
+
+
+                    </div>
+
+                    <div class="col-sm-5">
+                        @Html.EnumDropDownListFor(dd => dd.Datos2, new { @class = "form-control" })
+
+                    </div>
+                </div>
+                <br />
+
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        @Html.TextBoxFor(n => n.num1, new { @class = "form-control", placeholder = "Ingrese un numero" })
+                        @Html.ValidationMessageFor(mn => mn.num1, "", new { @class = "text-danger" })
+
+                    </div>
+
+                    <div class="col-sm-6 float-left">
+                        @Html.DisplayFor(nn => nn.num2, new { @class = "form-control", })
+                        @Html.DisplayFor(nn => nn.Datos2, new { @class = "form-control", })
+
+                    </div>
+
+                </div>
+                <br />
+                <input type="submit" class="btn btn-primary mx-auto d-block" value="Convertir" />
+            </div>
+        </div>
+    }
+
+</div>
