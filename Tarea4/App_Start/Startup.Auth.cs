@@ -56,8 +56,8 @@ namespace Tarea4
             //   consumerSecret: "");
 
             app.UseFacebookAuthentication(
-               appId: "1060194217673873",
-               appSecret: "78d3d1e4f7598a64f20973679d9d779e");
+               appId: "510400732949223",
+               appSecret: "a7e8bfc9c55ff21a01f1188a1e90f3fe");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{

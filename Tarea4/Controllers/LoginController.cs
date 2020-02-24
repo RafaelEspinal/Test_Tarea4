@@ -16,16 +16,17 @@ namespace Tarea4.Controllers
         }
 
         [HttpPost]
-        public ActionResult Formulario(datos data, HttpPostedFileBase imagen)
+        public ActionResult Formulario(datos data, HttpPostedFileBase imagen, HttpPostedFileBase pdf)
         {
             if (ModelState.IsValid)
             {
                 string nombreFoto = imagen.FileName;
-
                 imagen.SaveAs(Server.MapPath("/Content/" + nombreFoto));
-
-
                 @ViewBag.foto = nombreFoto;
+
+                string nombrepdf = pdf.FileName;
+                pdf.SaveAs(Server.MapPath("/Content/" + nombrepdf));
+                @ViewBag.pdf = nombrepdf;
 
                 return View("Resivir", data);
             }
