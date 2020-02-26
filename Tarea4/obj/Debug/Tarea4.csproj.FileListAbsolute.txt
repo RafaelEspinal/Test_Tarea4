@@ -437,8 +437,8 @@ C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\roslyn\VBCSCompil
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\Antlr3.Runtime.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\EntityFramework.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\EntityFramework.SqlServer.dll
-C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\ExcelDataReader.DataSet.dll
-C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\ExcelDataReader.dll
+C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\EPPlus.dll
+C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\LinqToExcel.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\Microsoft.AspNet.Identity.Core.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\Microsoft.AspNet.Identity.Owin.dll
@@ -455,6 +455,9 @@ C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\Microsoft.Owin.Se
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\Newtonsoft.Json.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\Owin.dll
+C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\Remotion.Data.Linq.dll
+C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\Remotion.dll
+C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\Remotion.Interfaces.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\System.Web.Helpers.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\System.Web.Mvc.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\System.Web.Optimization.dll
@@ -463,10 +466,9 @@ C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\System.Web.WebPag
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\System.Web.WebPages.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\System.Web.WebPages.Razor.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\WebGrease.dll
-C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\ExcelDataReader.pdb
-C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\ExcelDataReader.xml
-C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\ExcelDataReader.DataSet.pdb
-C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\ExcelDataReader.DataSet.xml
+C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\WindowsBase.dll
+C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\EPPlus.xml
+C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\LinqToExcel.xml
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\System.Web.Helpers.xml
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\System.Web.Mvc.xml
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\System.Web.Optimization.xml
@@ -514,3 +516,6 @@ C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\obj\Debug\Tarea4.cspr
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\obj\Debug\Tarea4.csproj.CopyComplete
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\obj\Debug\Tarea4.dll
 C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\obj\Debug\Tarea4.pdb
+C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\Excel.dll
+C:\Users\edwal\OneDrive\Desktop\tarea 4\Test_Tarea4\Tarea4\bin\Excel.pdb

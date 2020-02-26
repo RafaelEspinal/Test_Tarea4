@@ -29,8 +29,8 @@ namespace Tarea4.Models
 
     public enum puesto_trabajo
     {
-
-       puesto1 , puesto2 , puesto3
+        Técnico_de_sistemas, Técnico_en_contabilidad, Director_de_tecnología, Director_técnico, Analista, Secretaria, Desarrollador_Android,
+        Web_analyst
     }
 
 }
